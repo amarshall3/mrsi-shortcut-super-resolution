@@ -4,7 +4,7 @@
 Diffusion models are the current state of the art for Magnetic Resonance Spectroscopic Imaging (MRSI) super-resolution. 
 Previous work demonstrated that the reverse diffusion chain can be shortened to 101 steps using a Flow-Truncated Denoising Diffusion Model (FTDDM), improving super-resolved image quality while reducing computational cost. 
 However, 101 steps remains expensive and may be prohibitive for clinical or real-time use.
-To address this, we explore shortcut diffusion models for MRSI super-resolution. 
+To address this, we explore shortcut models for MRSI super-resolution. 
 Unlike standard diffusion models, shortcut models support single-step or multi-step generation by specifying the step size at sampling time, enabling a direct trade-off between inference speed and output quality. 
 To our knowledge, this is the first application of single-step diffusion models in the medical imaging domain.
 
